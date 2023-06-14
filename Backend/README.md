@@ -11,3 +11,4 @@ Successes:
 
 Issues:
 - The authentication exception paths proved to be difficult, as the tutorial recommended using regular expressions to include e.g. all GET paths from the /products route (e.g. including getting a specific /products:id path.) This did not work and whilst I covered the main paths via individual routes, I was unable to find a way to include the paths including request parameters
+- The use of multer was very challenging to successfully upload images, and whilst I was able to complete the multiple images path, the individual image path in the /products post request did not work, so I opted for a simpler route using the image URL as text.
